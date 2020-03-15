@@ -1,0 +1,32 @@
+body {
+    background-color: lightseagreen;
+    color: lightpink;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: space-around;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+button {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lime;
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.iteration-count > span {
+    color: hotpink;
+    font-weight: bold;
+}
